@@ -25,6 +25,32 @@
             </div>
         </div>
     </div>
+
+    <div class="row">
+        <div class="col-md-8 offset-md-1 text-uppercase text-break menu">
+
+            <?php
+				$args = array(
+					'theme_location' => 'header-menu',
+					'menu'=> 'menu-1'
+				);
+
+				wp_nav_menu( $args);
+			?>
+    
+        </div>
+    </div>
+
+    <?php if(!is_page('contato') and !is_page('pagina-de-exemplo')) { ?>
+    
+    <div class="row">
+        <div class="col-10 offset-1 my-5">
+            <?php masterslider(2);?>
+        </div>
+    </div>
+
+    <?php } ?>
+
 </head>
 
 <body>
