@@ -1,0 +1,71 @@
+/* 
+
+Theme name: TemaTriste.com
+Author: Raylla Silva
+Description: Tema novinho
+Version: 0.0.0.0.0.1
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Poppins&display=swap');
+
+.geral {
+    border-bottom: 2px solid #000; 
+    margin-bottom: 90px;
+}
+
+body {
+    background: #fff;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    margin-top: 3%;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.titulo h1 {
+    margin-top: 10%;
+    font-family: 'Caveat', cursive;
+    text-transform: uppercase;
+}
+
+.rodape {
+ background: #212529;
+ color: #fff;
+ font-size: 20px;
+ font-weight: bolder;
+ padding-bottom: 30px;
+ width: 100%;
+ height: 200px;
+ text-align: center;
+}
+
+.rodape p {
+    margin-top: 150px;
+}
+
+.rodape p {
+    margin-top: 150px;
+}
+
+.foto img {
+    width: 100%;
+    height: 200px;
+}
+
+a {
+    margin-bottom: 50px;
+}
+
+.post {
+    text-align: justify;
+}
+
